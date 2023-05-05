@@ -1,0 +1,5 @@
+1. We use parcel as a dev dependency which is a bundler that's going to compile our typescript files.
+2. The parcel is going automatically detect the ts file and transpile into js file
+3. run parcel --help to go through the commands required
+4. write scripts in package.json to transpile the ts files and reload the web browser on any changes.
+5. remove main from package.json sp parcel doesn't throw any error otherwise it will keep looking for index.js file
